@@ -4,7 +4,7 @@ Este projeto é uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida 
 ## 🖥️ Visualize o Projeto
 
 Você pode acessar a Calculadora de IMC através do seguinte link:<br>
-🔗 Clique aqui para visualizar o projeto: https://github.com/isaque-ds/calcular-imc
+🔗 Clique aqui para visualizar o projeto: https://isaque-ds.github.io/calcular-imc/
 
 ## 🚀 Tecnologias Utilizadas
 
