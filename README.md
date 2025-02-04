@@ -16,6 +16,6 @@ Você pode acessar a Calculadora de IMC através do seguinte link:<br>
 ## Autor
 
   Isaque Santos <br>
-🔗 Seu GitHub <br>
+🔗 Seu GitHub: https://github.com/isaque-ds <br>
 🔗 LinkedIn: https://www.linkedin.com/in/isaque-ds/ <br>
 🔗 Email: isaquedev07@gmail.com
