@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora IMC</title>
+    <title>Calculadora IMC</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
@@ -14,17 +14,21 @@
     </header>
 
     <section>
+        <!-- Calculadora IMC -->
         <div id="calculadora">
-            <p>Peso: </p><input type="number" name="peso" id="peso" placeholder="Digite seu peso">
-            <p>Altura: </p><input type="number" name="altura" id="altura" placeholder="Digite sua altura">
+            <p>Peso</p>
+            <input type="number" name="peso" id="peso" placeholder="Digite seu peso" step="0.1" min="0">
+
+            <p>Altura</p>
+            <input type="number" name="altura" id="altura" placeholder="Digite sua altura" step="0.01" min="0">
 
             <button class="calcular">Calcular</button>
             <button class="limpar">Limpar</button>
-
         </div>
 
+        <!-- Área de resultado -->
         <div id="resposta">
-            <img src="img/abaixo-do-peso.jpg" width="60px">
+            <img src="img/abaixo-do-peso.jpg" width="60px" alt="Indicador IMC">
         </div>
     </section>
 
