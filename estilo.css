@@ -104,3 +104,246 @@ footer {
     margin-top: 60px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
+
+/* Media Queries para Responsividade */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 15px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #calculadora {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #peso,
+    #altura {
+        width: 90%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0 5px 0;
+    }
+
+    .calcular,
+    .limpar {
+        width: 45%;
+        padding: 12px 20px;
+        margin: 15px 5px;
+        font-size: 14px;
+    }
+
+    #resposta {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    #resposta img {
+        width: 40px;
+    }
+
+    footer {
+        font-size: 16px;
+        margin-top: 30px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    body {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Para telas muito pequenas */
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #calculadora {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #peso,
+    #altura {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .calcular,
+    .limpar {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    #resposta {
+        font-size: 16px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    body {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Para tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #calculadora {
+        width: 80%;
+        max-width: 700px;
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #peso,
+    #altura {
+        width: 90%;
+        max-width: 500px;
+        margin: 10px auto;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .calcular,
+    .limpar {
+        margin: 15px 10px;
+    }
+
+    #resposta {
+        width: 80%;
+        max-width: 700px;
+        margin: 20px auto;
+    }
+
+    body {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Para telas em orientação paisagem em dispositivos móveis */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    body {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #calculadora {
+        margin-top: 20px;
+        height: auto;
+        padding: 15px;
+    }
+
+    .calcular,
+    .limpar {
+        padding: 8px 30px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
+
+/* Ajuste para telas muito grandes */
+@media screen and (min-width: 1400px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #calculadora {
+        width: 600px;
+        height: 350px;
+    }
+
+    #peso,
+    #altura {
+        width: 500px;
+        font-size: 18px;
+    }
+
+    .calcular,
+    .limpar {
+        padding: 20px 60px;
+        font-size: 18px;
+    }
+
+    #resposta {
+        width: 600px;
+        font-size: 28px;
+    }
+
+    #resposta img {
+        width: 70px;
+    }
+}
