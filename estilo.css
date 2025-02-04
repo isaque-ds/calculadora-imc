@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Protest+Revolution&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/08/15/42/abstract-2729141_1280.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 40px;
+}
+
+#calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    background-color: rgb(139, 222, 161);
+    width: 500px;
+    height: 300px;
+    box-shadow: 4px 4px 5px rgb(11, 11, 11);
+}
+
+#peso {
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border: none;
+}
+
+#altura {
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border: none;
+    text-align: center;
+}
+
+p {
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.calcular {
+    padding: 15px 50px 15px 50px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.limpar {
+    padding: 15px 50px 15px 50px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    border: none;
+}
+
+#resposta {
+    display: none;
+    align-items: center;
+    background-color: white;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 60px;
+}
